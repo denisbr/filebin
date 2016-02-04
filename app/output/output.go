@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/espebra/filebin/app/model"
+	"github.com/denisbr/filebin/app/model"
 )
 
 func JSONresponse(w http.ResponseWriter, status int, d interface{}, ctx model.Context) {

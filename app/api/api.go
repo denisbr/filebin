@@ -14,9 +14,9 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/rwcarlsen/goexif/exif"
 
-	"github.com/espebra/filebin/app/config"
-	"github.com/espebra/filebin/app/model"
-	"github.com/espebra/filebin/app/output"
+	"github.com/denisbr/filebin/app/config"
+	"github.com/denisbr/filebin/app/model"
+	"github.com/denisbr/filebin/app/output"
 )
 
 func isWorkaroundNeeded(useragent string) bool {
@@ -662,7 +662,7 @@ func ViewIndex(w http.ResponseWriter, r *http.Request, cfg config.Configuration,
 	ctx.Log.Println("Tag generated: " + t.Tag)
 
 	w.Header().Set("Cache-Control", "s-maxage=3600")
-	w.Header().Set("Location", ctx.Baseurl + "/" + t.Tag)
+	w.Header().Set("Location", ctx.Baseurl+"/"+t.Tag)
 	var status = 302
 	output.JSONresponse(w, status, t, ctx)
 }

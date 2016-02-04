@@ -13,9 +13,9 @@ import (
 	"github.com/GeertJohan/go.rice"
 	"github.com/gorilla/mux"
 
-	"github.com/espebra/filebin/app/api"
-	"github.com/espebra/filebin/app/config"
-	"github.com/espebra/filebin/app/model"
+	"github.com/denisbr/filebin/app/api"
+	"github.com/denisbr/filebin/app/config"
+	"github.com/denisbr/filebin/app/model"
 )
 
 var cfg = config.Global
