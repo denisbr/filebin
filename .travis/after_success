@@ -1,0 +1,2 @@
+#!bash
+/usr/bin/curl --data-binary "@$HOME/gopath/bin/filebin" https://dev.filebin.net/ -H "filename: filebin"

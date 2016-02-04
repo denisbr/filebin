@@ -14,4 +14,4 @@ script:
   - make check
   - make install
 after_success:
-  - curl --data-binary "@$HOME/gopath/bin/filebin" https://dev.filebin.net/ -H "filename: filebin"
+  - source ./.travis/after_success
