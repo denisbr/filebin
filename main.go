@@ -26,7 +26,6 @@ var staticBox *rice.Box
 var templateBox *rice.Box
 
 // Initiate buffered channel for batch processing
-// Add silly comment to trigger build?
 var WorkQueue = make(chan model.File, 1000)
 
 func isDir(path string) bool {
