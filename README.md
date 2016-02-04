@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/espebra/filebin.svg)](https://travis-ci.org/espebra/filebin)
+[![Build Status](https://travis-ci.org/denisbr/filebin.svg)](https://travis-ci.org/denisbr/filebin)
 
 ![Viewing a tag](doc/screenshot-web-interface-tag.png)
 
