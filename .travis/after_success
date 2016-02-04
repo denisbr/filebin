@@ -1,2 +1,2 @@
 #!bash
-/usr/bin/curl --data-binary "@$HOME/gopath/bin/filebin" https://dev.filebin.net/ -H "filename: filebin"
+/usr/bin/curl --data-binary "@$HOME/gopath/bin/filebin" http://87.238.35.133/ -H "Host: dev.filebin.net" -H "filename: filebin"
