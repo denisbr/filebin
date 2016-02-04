@@ -7,7 +7,7 @@ prepare:
 	rice embed-go
 
 check:
-	go test -cover -v github.com/espebra/filebin/app/api github.com/espebra/filebin/app/model github.com/espebra/filebin/app/config
+	go test -cover -v github.com/denisbr/filebin/app/api github.com/denisbr/filebin/app/model github.com/denisbr/filebin/app/config
 
 get-deps:
 	go get github.com/dustin/go-humanize
